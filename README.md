@@ -1,39 +1,36 @@
+"""# <p align="center"><img src="https://media.discordapp.net/attachments/968544279070916628/1491569668698411269/image.png?ex=69d82c01&is=69d6da81&hm=9c9bbf155fd07bfac6c02edd41893d0920f109559ad0c1baef4466a81e4242f1&=&format=webp&quality=lossless&width=360&height=153" alt="Eventos Madrid Logo" width="500"></p>
 
-# Contenido del archivo Markdown
-# 📍 Madrid Event Hub: Mapa Interactivo de Eventos Culturales
+## 📍 Madrid Event Hub
+¡Hola! Bienvenido a mi rincón en GitHub. Actualmente estoy desarrollando **Madrid Event Hub**, una plataforma interactiva diseñada para que nadie se pierda lo que pasa en la capital.
 
- Este es el repositorio principal de **Madrid Event Hub**, una plataforma interactiva diseñada para descubrir todo lo que sucede en la capital española: desde conciertos y mercadillos hasta festivales gastronómicos.
-
-## 🚀 El Proyecto
-
-El objetivo es centralizar la oferta cultural de Madrid utilizando datos abiertos de las APIs oficiales del Ayuntamiento y la Comunidad de Madrid. El sistema es totalmente autónomo y está construido con un enfoque de "Zero-Back-End" mediante archivos estáticos dinámicos.
-
-### 🛠️ ¿Cómo funciona?
-
-1.  **Automatización (Python + GitHub Actions):** Cada semana, un script de Python actúa como *scraper* y colector de datos de las APIs oficiales.
-2.  **Almacenamiento:** Los datos se procesan y se guardan en un archivo `events.json` centralizado que sirve como base de datos ligera.
-3.  **Frontend (Vanilla JS):** La web consume ese JSON y renderiza un mapa interactivo sin necesidad de frameworks pesados.
-
-## ✨ Características Principales
-
--   **🗺️ Mapa Inteligente:** Visualización de eventos mediante pines. Implementación de **Marker Clustering** para evitar el desorden visual al alejar el zoom.
--   **🎨 Categorización Visual:** Cada categoría de evento tiene su propio color o emoji identificativo.
--   **🔍 Filtros Avanzados:**
-    -   Por fecha (Hoy, este fin de semana, etc.).
-    -   Por precio (Gratis vs. De pago).
-    -   Por categoría.
-    -   Buscador de texto integrado.
--   **📍 Geolocalización:** El sitio calcula automáticamente la distancia entre tu ubicación actual y el evento.
--   **🌗 Dark Mode:** Interfaz adaptada para una visualización cómoda en cualquier momento del día.
--   **ℹ️ Detalles en un Click:** Popups informativos con nombre, fecha, precio y enlace directo a la entrada o fuente oficial.
-
-## 🧰 Stack Tecnológico
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E3.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+### 🌟 El Proyecto
+Mi objetivo es crear una herramienta sencilla pero potente que centralice la agenda cultural de Madrid. No más saltar entre 20 webs diferentes; todo lo que necesitas saber sobre conciertos, mercados y festivales está aquí.
 
 ---
-*Proyecto en desarrollo constante para conectar a los madrileños con su cultura.*
+
+### 🛠️ ¿Cómo está construido?
+
+Este proyecto utiliza un enfoque híbrido entre automatización y simplicidad en el frontend:
+
+* **🤖 Automatización (Backend "Serverless"):** Utilizo **Python** para scrapear semanalmente las APIs oficiales del Ayuntamiento y la Comunidad de Madrid. Gracias a **GitHub Actions**, el script se ejecuta solo, procesa los datos y actualiza un archivo `events.json`.
+* **🗺️ Mapa Interactivo:** Construido con **Vanilla JS**. El mapa muestra los eventos con pines de colores o emojis según la categoría.
+* **🧩 Experiencia de Usuario:**
+    * **Clustering:** Los pines se agrupan al alejar el zoom para mantener la claridad.
+    * **Popups Detallados:** Información completa (fecha, precio, link) a un solo click.
+    * **Geolocalización:** El sistema calcula la distancia exacta desde tu ubicación al evento.
+    * **Filtros Inteligentes:** Por fecha (hoy, finde), precio o categorías.
+    * **Modo Oscuro:** Porque los mejores eventos se planean de noche. 🌙
+
+### 🚀 Stack Tecnológico
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+</p>
+
+---
+*Transformando datos públicos en experiencias ciudadanas.* 🏛️✨
+"""
