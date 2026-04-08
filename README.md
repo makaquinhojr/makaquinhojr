@@ -1,6 +1,6 @@
 
 # Contenido del archivo Markdown
-md_content = """# 📍 Madrid Event Hub: Mapa Interactivo de Eventos Culturales
+# 📍 Madrid Event Hub: Mapa Interactivo de Eventos Culturales
 
  Este es el repositorio principal de **Madrid Event Hub**, una plataforma interactiva diseñada para descubrir todo lo que sucede en la capital española: desde conciertos y mercadillos hasta festivales gastronómicos.
 
