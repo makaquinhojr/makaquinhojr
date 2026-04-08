@@ -1,4 +1,4 @@
-"""# <p align="center"><img src="https://media.discordapp.net/attachments/968544279070916628/1491569668698411269/image.png?ex=69d82c01&is=69d6da81&hm=9c9bbf155fd07bfac6c02edd41893d0920f109559ad0c1baef4466a81e4242f1&=&format=webp&quality=lossless&width=360&height=153" alt="Eventos Madrid Logo" width="500"></p>
+ <p align="center"><img src="https://media.discordapp.net/attachments/968544279070916628/1491569668698411269/image.png?ex=69d82c01&is=69d6da81&hm=9c9bbf155fd07bfac6c02edd41893d0920f109559ad0c1baef4466a81e4242f1&=&format=webp&quality=lossless&width=360&height=153" alt="Eventos Madrid Logo" width="500"></p>
 
 ## 📍 Madrid Event Hub
 ¡Hola! Bienvenido a mi rincón en GitHub. Actualmente estoy desarrollando **Madrid Event Hub**, una plataforma interactiva diseñada para que nadie se pierda lo que pasa en la capital.
